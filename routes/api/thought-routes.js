@@ -17,6 +17,10 @@ router
     .route('/:thoughtId')
     .get(getThoughtById)
     .put(updateThought)
+
+// delete thought
+router
+    .route('/:userId/:thoughtId')
     .delete(deleteThought);
 
 module.exports = router;
