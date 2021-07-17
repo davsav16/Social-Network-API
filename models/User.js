@@ -11,13 +11,25 @@ const UserSchema = new Schema({
         type: String,
         required: true,
         unique:true,
-        // validate: {
-        //     match: '/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/'
-        // }
+        match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/]
+        
     },
-    // thoughts: [],
-    // friends: []
-});
+    thoughts: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Thought'
+        }
+    ],
+    // friends: [],
+    },
+    {
+        toJSON: {
+            virtuals: true,
+        },
+        id: false
+    }
+);
+
 
 const User = model('User', UserSchema);
 
