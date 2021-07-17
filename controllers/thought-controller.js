@@ -16,7 +16,7 @@ const thoughtController = {
     },
 
     //create a though
-    createThought({ body }, res) {
+    createThought({ params, body }, res) {
         Thought.create(body)
         .then(({ _id }) => {
             return User.findOneAndUpdate(

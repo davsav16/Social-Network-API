@@ -9,7 +9,10 @@ const {
 
 router
     .route('/')
-    .get(getAllThought)
+    .get(getAllThought);
+  
+router
+    .route('/:userId')
     .post(createThought);
 
 //set up Get one, put 
