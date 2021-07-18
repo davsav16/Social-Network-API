@@ -27,6 +27,6 @@ https://www.youtube.com/watch?v=iwGIqEzdUF8
 
 # Contact
 Feel free to reach out to me!
-Email: david.mcdougal00@gmail.com
-LinkedIn: https://www.linkedin.com/in/mcdougaldavid/
+- Email: david.mcdougal00@gmail.com
+- LinkedIn: https://www.linkedin.com/in/mcdougaldavid/
 
