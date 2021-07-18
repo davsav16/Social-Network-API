@@ -22,8 +22,8 @@ To start, download this repo to your local machine, then conduct an npm install 
  - Mongoose
 
 # Video
-https://www.youtube.com/watch?v=8SN0QYxQszc
-https://www.youtube.com/watch?v=iwGIqEzdUF8
+- https://www.youtube.com/watch?v=8SN0QYxQszc
+- https://www.youtube.com/watch?v=iwGIqEzdUF8
 
 # Contact
 Feel free to reach out to me!
